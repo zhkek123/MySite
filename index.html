@@ -1,23 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <!-- Google Font -->
+  <!-- Fell -->
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&display=swap" rel="stylesheet">
+  <!-- Custome Style -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col bg-primary">aaa</div>
-            <div class="col bg-secondary">bbb</div>
-            <div class="col bg-warning"></div>
+  <!-- Navigation Bar is here  -->
+  <section id="navbar">
+    <div class="container-fluid p-0 bg-img">
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <a class="navbar-brand" href="#">Hello, world!</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About me<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">second</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">third</a>
+            </li>
+          </ul>
         </div>
+      </nav>   
+      <!-- Jumbotron to show off -->
+      <div class="jumbotron bg-transparent">
+        <h1 class="display-2 font-italic">You are your only limit</h1>
+        <p class="lead enlarge">This is a personal website by Kek</p>
+        <hr class="my-2">
+        <p class="enlarge">Passion in hiking, coding, and music. </p>
+      </div> 
     </div>
-    
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      
+  </section>
+
+
+  <!-- Welcoming speech -->
+  <section id="welcoming-speech">
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col">
+          <h1 class="mb-5">Welcome to my website</h1>
+          <div class="media mb-5">
+            <i class="far fa-comments fa-3x mr-3"></i>
+            <div class="media-body">
+              <h5 class="mt-0">Words from Kek</h5>
+              Recently, I was learning HTML (Hypertext Markup Language) and CSS (Cascading Style Sheet). These are porgramming languages that widely used for web design. I also spend time to study about Bootstrap, a popular framework for web design. After a few months of learning, I decided to build my own website. This is the first serious website I try to build. Hope you enjoy this website and give me some feedback.
+            </div>
+          </div>
+          <div class="media mb-5">
+            <i class="fas fa-spider fa-3x mr-3"></i>
+            <div class="media-body">
+              <h5 class="mt-0">About this website</h5>
+              Since I just started my journey on HTML and CSS and not yet touching the Javascript, this website will relatively static and less interactive. This website serve the content delivery purpose more than collect user input and user data. This website is hosted using GitHub Pages which is a free service provided by GitHub. (Yes, need to pay for a custom domain name such as "www.handsomekek.com") The ultimate goal to have a complete website is still far far away, don't expect too much.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Summary of my character -->
+  <section id="biodata">
+    <div class="container">
+      <div class="row m-3">
+        <div class="col-md">
+          <img src="images/section2/profile-pic.jpg" class="img-fluid mt-3 rounded" alt="">
+          <p class="font-italic text-right">A picture of my beutiful mum and I hiking in National Park of Penang.</p>
+        </div>
+        <div class="col-md">
+          <h1 class="mt-3">About me <i class="far fa-meh-blank"></i></h1>
+          <p class="text-indent text-justify enlarge">Thank for reading this website until here. Is time for me to officially introduce myself. My name is Kek Zhi Hong.  I am a energitic person who always seek for challenges. Like to watch YouTube videos that explaining about Maths, Physics concepts which majority of the people think what a boring stuff. These kind of videos always give me a different perspective to analyze problem, changing the way I look at problems. I fill up my leisure time by learning schedule or doing exercise to keep myself healthy. I love to hike because it burn calories and at the same time, allow me to keep myself away from the electronic devices by taking a natural bath in the middle of jungle. I enjoy the sound of river babbling, the smell of soil after the rain. I also like to sing and play musical instrument to express my feeling. The flow of rhythm and meaningful lyrics cheer me up when when I am down and make me high when I am exited. I am a person that seldom express myself to strangers but if you know me well, you will think I am crazy!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- card -->
+  <section id="">
+    <div class="container">
+      <h1>Nerd stats <i class="fas fa-laptop-code"></i></h1>
+      <div class="row m-3">
+        <div class="col-md">
+          <div class="card">
+            <div class="card-header bg-info text-white font-weight-bold">
+              Personality
+            </div>
+            <img class="card-img-top" src="images/personality (1).png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Team Work</p>
+            </div>
+          </div>          
+        </div>
+        <div class="col-md">
+          <div class="card">
+            <div class="card-header bg-info text-white font-weight-bold">
+              Personality
+            </div>
+            <img class="card-img-top" src="images/programming rmv bg (1).jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Team Work</p>
+            </div>
+          </div>  
+        </div>
+        <div class="col-md"><div class="card">
+          <div class="card-header bg-info text-white font-weight-bold">
+            Personality
+          </div>
+          <img class="card-img-top" src="images/computer rmvbg (1).jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Team Work</p>
+          </div>
+        </div>  </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
